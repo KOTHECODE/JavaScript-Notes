@@ -364,3 +364,69 @@ JAVASCRIPT NOTES
            console.log(subtract(2, 3));
            console.log(multiply(2, 3));
            console.log(divide(2, 3));
+
+           
+****** ARRAY = a variabe liek structure that can hold more than 1 value ********   
+
+    Example 1:
+            let fruit = ['apple','orange','banana'];
+
+            fruits.push('coconut');
+            fruits.pop();
+            fruits.unshift('mango');
+            fruits.shift();
+            
+                        console.log(fruits);
+                        console.log(fruits[0]);
+                        console.log(fruits[1]);
+                        console.log(fruits[2]);
+                        console.log(fruits[3]);
+
+
+****** SPREAD OPERATOR = allows an iterable such as an array or string to be expanded into seperate elements (unpack the elements) ********   
+
+            Example 1:
+                        let username = 'Bro Code';
+                        let letters = [...username];
+
+                        console.log(letters);
+
+            Example 2:
+                        
+                        let fruits = ['apple', 'orange', 'banana'];
+                        let vegatables = ['carrots', 'celery', 'potatoes'];
+                        
+                        let food = [...fruits, ...vegatables, 'eggs', 'milk'];
+
+                        console.log(food);
+
+****** REST PARAMETERS = (...rest) allow a function work with a varibale number if arguements by bundling them into a array.  ******** 
+****** SPREAD  = expands an array into a seperate elements ********  
+****** rest  = bundles seperate elements into am array. ******** 
+
+            Example:
+                        function openFrdige(...foods){
+                                    console.log(...foods);
+                                    }
+                        function getFood(...foods){
+                                    return foods;
+                                    }
+
+                        const food1 = 'pizza';
+                        const food1 = 'hamburger';
+                        const food1 = 'hotdog';
+                        const food1 = 'sushi';
+                        const food1 = 'ramen';
+
+                        const foods = getFood(food1, food2, food3, food4, food5);
+                        console.loh(foods);
+
+
+
+
+
+
+
+
+
+
