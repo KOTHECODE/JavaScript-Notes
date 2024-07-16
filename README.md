@@ -366,7 +366,7 @@ JAVASCRIPT NOTES
            console.log(divide(2, 3));
 
            
-****** ARRAY = a variabe liek structure that can hold more than 1 value ********   
+****** ARRAY = a variabe like structure that can hold more than 1 value ********   
 
     Example 1:
             let fruit = ['apple','orange','banana'];
